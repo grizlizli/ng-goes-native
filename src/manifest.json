@@ -1,7 +1,7 @@
 {
   "name": "ng-goes-native",
   "short_name": "ng-goes-native",
-  "theme_color": "#e91e63",
+  "theme_color": "#dd0031",
   "background_color": "#fafafa",
   "display": "standalone",
   "scope": "/",
