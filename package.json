@@ -1,5 +1,6 @@
 {
   "name": "ng-goes-native",
+  "main": "main.js",
   "nativescript": {
     "id": "org.nativescript.nggoesnative"
   },
@@ -14,7 +15,9 @@
     "android": "tns run android --bundle",
     "ios": "tns run ios --bundle",
     "mobile": "tns run --bundle",
-    "preview": "tns preview --bundle"
+    "preview": "tns preview --bundle",
+    "electron-tsc": "tsc main.ts && ng build --base-href ./ && electron .",
+    "electron": "ng build --base-href ./ && electron ."
   },
   "private": true,
   "dependencies": {
@@ -36,14 +39,15 @@
     "zone.js": "^0.8.26"
   },
   "devDependencies": {
+    "@angular-devkit/build-angular": "~0.11.4",
     "@angular/cli": "^7.2.0",
     "@angular/compiler-cli": "~7.2.0",
-    "@angular-devkit/build-angular": "~0.11.4",
     "@nativescript/schematics": "~0.4.0",
     "@types/jasmine": "2.8.6",
     "@types/jasminewd2": "~2.0.3",
     "@types/node": "~8.9.4",
     "codelyzer": "~4.2.1",
+    "electron": "^5.0.2",
     "jasmine-core": "~2.99.1",
     "jasmine-spec-reporter": "~4.2.1",
     "karma": "~1.7.1",
@@ -51,12 +55,12 @@
     "karma-coverage-istanbul-reporter": "~2.0.0",
     "karma-jasmine": "~1.1.1",
     "karma-jasmine-html-reporter": "^0.2.2",
+    "nativescript-dev-sass": "~1.6.0",
     "nativescript-dev-typescript": "~0.8.0",
     "nativescript-dev-webpack": "^0.20.0",
     "protractor": "~5.3.0",
     "ts-node": "~5.0.1",
     "tslint": "~5.9.1",
-    "typescript": "~3.1.1",
-    "nativescript-dev-sass": "~1.6.0"
+    "typescript": "~3.1.1"
   }
 }
