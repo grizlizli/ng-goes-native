@@ -2,7 +2,10 @@
   "name": "ng-goes-native",
   "main": "main.js",
   "nativescript": {
-    "id": "org.nativescript.nggoesnative"
+    "id": "org.nativescript.nggoesnative",
+    "tns-android": {
+      "version": "5.4.0"
+    }
   },
   "version": "0.0.0",
   "scripts": {
