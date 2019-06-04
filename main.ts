@@ -1,8 +1,8 @@
 import { app, BrowserWindow } from 'electron';
 import * as path from 'path';
 
+// Reading the name value from the package.json file.
 const PACKAGE_JSON = require('./package.json');
-
 const APP_NAME = PACKAGE_JSON.name;
 
 let mainWindow: Electron.BrowserWindow;
