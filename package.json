@@ -20,7 +20,8 @@
     "mobile": "tns run --bundle",
     "preview": "tns preview --bundle",
     "electron-tsc": "tsc main.ts && ng build --base-href ./ && electron .",
-    "electron": "ng build --base-href ./ && electron ."
+    "electron": "ng build --base-href ./ && electron .",
+    "start:pwa": "ng build --prod && lite-server --baseDir=dist/ng-goes-native"
   },
   "private": true,
   "dependencies": {
