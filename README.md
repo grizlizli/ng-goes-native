@@ -4,6 +4,8 @@
 
 Complete setup for developing multi platform solutions with Angular, NativeScript and Electron.JS
 
+![One Framework To Rule Them All](one_ring_to_rule_them_all.gif)
+
 ### Motivation
 
 - Business logic is platform independant
