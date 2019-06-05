@@ -6,9 +6,9 @@ Complete setup for developing multi platform solutions with Angular, NativeScrip
 
 ### Motivation
 
-    - Business logic is platform independant
-    - Using familiar technology
-    - Having the native experience 
+- Business logic is platform independant
+- Using familiar technology
+- Having the native experience 
 
 ## Setup
 
