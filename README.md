@@ -10,13 +10,13 @@ Complete setup for developing multi platform solutions with Angular, NativeScrip
 
 - Business logic is platform independant
 - Using familiar technology
-- Having the native experience 
+- Having native experience
 
 ## Setup
 
 ### Generating The Shared Angular & NativeScript project
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.0 with NativeScript schematics included. Shared flag transforms the project to shared Angular & NativeScript project. 
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.0 with NativeScript schematics included. Shared flag transforms the project to shared Angular & NativeScript project.
 
 ```bash
 ng new --collection=@nativescript/schematics --style=scss --shared <appname>
